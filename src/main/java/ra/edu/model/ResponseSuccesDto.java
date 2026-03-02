@@ -6,5 +6,5 @@ public class ResponseSuccesDto<T> {
     private int code;
     private String message;
     private T data;
-    private LocalDateTime timestamp=LocalDateTime.now();
+    private LocalDateTime timestamp = LocalDateTime.now();
 }
